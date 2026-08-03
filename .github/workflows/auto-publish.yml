@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v6
-      - uses: w3c/spec-prod@v2
+      - uses: w3c/spec-prod@v2.13.2
         with:
           SOURCE: spec.bs
           DESTINATION: spec.html
